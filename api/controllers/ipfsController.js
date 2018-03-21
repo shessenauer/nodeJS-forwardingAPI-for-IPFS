@@ -12,12 +12,11 @@ var ipfsController = {}
 
 ipfsController.uploadFile = function (_file) {
 	// Call the ipfsCaller
-	//TODO: add the ipfsCaller logic
+
+	// TODO: add the ipfsCaller logic
 	// ipfsCaller.uploadFileToIpfs(_file)
   console.log(_file)
-  return "Upload Successful"
+  return 'Upload Successful'
 }
-
-
 
 module.exports = ipfsController

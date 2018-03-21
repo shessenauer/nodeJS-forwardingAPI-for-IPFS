@@ -10,16 +10,12 @@ require('dotenv').config()
 // Routes
 const ipfsRoutes = require('./api/routes/ipfsRoute')
 
-
-
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors())
 
 app.use('/ipfs', ipfsRoutes)
-
-
 
 // TODO add more error handling and timeout setting
 

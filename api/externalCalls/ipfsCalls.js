@@ -12,9 +12,6 @@ var ipfsCalls = {}
 
 ipfsURL = 'https://ipfs.io/ipfs/'
 
-
-
-
 ipfsCalls.testIPFS2 = async function (_ipfsHash) {
   try {
     const url = ipfsURL + _ipfsHash

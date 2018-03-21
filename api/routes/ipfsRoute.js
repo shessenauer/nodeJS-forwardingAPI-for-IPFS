@@ -9,13 +9,11 @@ const router = express.Router()
 
 const ipfsController = require('../controllers/ipfsController')
 
-
 router.get('/', (req, res, next) => {
-	let response = ipfsController.uploadFile("Data Data Data")
-    res.status(200).json({
-      message: response
-    })
+  let response = ipfsController.uploadFile('Data Data Data')
+  res.status(200).json({
+    message: response
   })
-
+})
 
 module.exports = router
