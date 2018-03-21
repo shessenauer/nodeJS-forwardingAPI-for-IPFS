@@ -1,0 +1,43 @@
+{
+  "name": "NodeJS-forwardingAPI-for-IPFS",
+  "version": "1.0.0",
+  "description": "A dockerized Node.JS API to receive files from a frontend application and upload/download from an IPFS node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running mocha tests\" && mocha spec",
+    "start": "echo \"Starting NodeJS-forwardingAPI-for-IPFS\" && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shessenauer/nodeJS-forwardingAPI-for-IPFS.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "matryx"
+  ],
+  "author": "Sam Hessenauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shessenauer/nodeJS-forwardingAPI-for-IPFS/issues"
+  },
+  "homepage": "https://github.com/shessenauer/nodeJS-forwardingAPI-for-IPFS#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "node-fetch": "^2.1.1",
+    "nodemon": "^1.17.2",
+    "npm": "^5.7.1",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "mocha": "^5.0.4",
+    "standard": "^11.0.1"
+  }
+}
